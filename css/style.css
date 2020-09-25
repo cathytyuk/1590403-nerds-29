@@ -1,0 +1,212 @@
+/* Variables */
+:root {
+  --basic-black: #000000;
+  --basic-green: #00CA74;
+  --basic-red: #FB565A;
+  --basic-yellow: #EFC849;
+  --basic-gray: #E1E1E1;
+  --nav-gray: #EEEEEE;
+  --basic-white: #ffffff;
+  --hover-red: #E74246;
+  --hover-green: #00BC6C;
+  --hover-yellow: #EAB534;
+  --hover-gray: #DFDFDF;
+  --pressed-red: #D7373B;
+  --pressed-green: #00AA62;
+  --pressed-yellow: #E5A722;
+  --pressed-gray: #D5D5D5;
+}
+
+/* Global */
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: var(--basic-black);
+  text-transform: none;
+  background-color: var(--basic-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main navigation */
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--basic-black);
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.main-navigation-wrapper {
+  background-color: var(--nav-gray);
+}
+
+.site-navigation,
+.cart {
+  list-style: none;
+}
+
+/* User navigation */
+.site-navigation a,
+.cart-link {
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover,
+.cart-link:hover,
+.cart-link:focus,
+.site-navigation a:focus {
+  color: var(--basic-red);
+}
+
+.cart-link:active,
+.site-navigation a:active {
+  color: var(--basic-gray);
+}
+
+/* Sliders */
+.sliders {
+  background-color: var(--nav-gray);
+}
+
+.main-info-slider {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+/* Services */
+.services-list {
+  list-style: none;
+}
+
+.services-item {
+  text-align: center;
+}
+
+.services-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* About */
+.about-us {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.about h3 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.about-list {
+  list-style: none;
+}
+
+/* Companies */
+.companies-list {
+  list-style: none;
+}
+
+/* Button */
+.button {
+  font: inherit;
+  text-align: center;
+  color: var(--basic-white);
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: var(--basic-red);
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--hover-red);
+}
+
+.button:active {
+  background-color: var(--pressed-red);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-app-order {
+  background-color: var(--basic-green);
+}
+
+.button-app-order:hover,
+.button-app-order:focus {
+  background-color: var(--hover-green);
+}
+
+.button-app-order:active, {
+  background-color: var(--pressed-green);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-presentation-order {
+  background-color: var(--basic-yellow);
+}
+
+.button-presentation-order:hover,
+.button-presentation-order:focus {
+  background-color: var(--hover-yellow);
+}
+
+.button-presentation-order:active, {
+  background-color: var(--pressed-yellow);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* Main footer */
+.main-footer {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+/* Contacts */
+.contacts-phone {
+  color: inherit;
+}
+
+.studio-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.friendship {
+  text-align: center;
+}
+
+.lets-be {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.social-media-list {
+  list-style: none;
+}
+
+.social-media-list a {
+  color: var(--basic-black);
+}

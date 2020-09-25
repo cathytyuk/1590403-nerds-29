@@ -1,80 +1,97 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <title>Дизайн-студия "Нердс"</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap">
+  <link href="normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="page-body">
   <header class="main-header">
-    <nav>
-      <a>
+    <nav class="main-navigation">
+      <a class="main-header-logo">
         <img src="https://via.placeholder.com/150x100" alt="Логотип дизайн-студии «Нердс»">
       </a>
-      <ul>
-        <li><a href="blank.html">Студия</a></li>
-        <li><a href="blank.html">Клиенты</a></li>
-        <li><a href="catalog.html">Магазин</a></li>
-        <li><a href="blank.html">Контакты</a></li>
-      </ul>
-      <ul>
-        <li><a href="blank.html">Корзина</a></li>
-      </ul>
+      <div class="main-navigation-wrapper">
+        <div class="container">
+          <ul class="site-navigation">
+            <li><a href="blank.html">Студия</a></li>
+            <li><a href="blank.html">Клиенты</a></li>
+            <li><a href="catalog.html">Магазин</a></li>
+            <li><a href="blank.html">Контакты</a></li>
+          </ul>
+          <ul class="cart">
+            <li><a class="cart-link" href="blank.html">Корзина</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
-  <main>
-    <h1>Дизайн-студия «Нердс»</h1>
-    <section>
-      <h2>Заставка</h2>
-      <p>Долго, дорого, скрупулёзно.</p>
-      <p>Математически выверенный дизайн
-        для вашего сайта или мобильного приложения.</p>
-      <a href="blank.html">Узнать больше</a>
+  <main class="center">
+    <h1 class="visually-hidden">Дизайн-студия «Нердс»</h1>
+    <section class="sliders">
+      <h2>Слайды</h2>
+      <div>
+        <!-- Первый слайд -->
+        <h2>Заставка</h2>
+        <p class="main-info-slider">Долго, дорого, скрупулёзно.</p>
+        <p>Математически выверенный дизайн
+          для вашего сайта или мобильного приложения.</p>
+        <a class="button button-more" href="blank.html">Узнать больше</a>
+      </div>
+      <div>
+        <!-- Второй слайд -->
+      </div>
+      <div>
+        <!-- Третий слайд -->
+      </div>
     </section>
     <section class="services">
-      <h2>Продукты</h2>
-      <ul>
-        <li>
+      <h2 class="visually-hidden">Продукты</h2>
+      <ul class="services-list">
+        <li class="services-item">
           <h3>Веб-сайты</h3>
           <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-          <a href="blank.html">Заказать</a>
+          <a class="button button-web-order" href="blank.html">Заказать</a>
         </li>
-        <li>
+        <li class="services-item">
           <h3>Приложения</h3>
           <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-          <a href="blank.html">Заказать</a>
+          <a class="button button-app-order" href="blank.html">Заказать</a>
         </li>
-        <li>
+        <li class="services-item">
           <h3>Презентации</h3>
           <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-          <a href="blank.html">Заказать</a>
+          <a class="button button-presentation-order" href="blank.html">Заказать</a>
         </li>
       </ul>
     </section>
     <section class="about">
-      <h2>О нас</h2>
-      <p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+      <h2 class="visually-hidden">О нас</h2>
+      <p class="about-us">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
       <p>Исповедуем принципы минимализма и чистоты.
         Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
       <h3>Выполняем заказы на разработку:</h3>
-      <ul>
-        <li>
+      <ul class="about-list">
+        <li class="about-item">
           Веб-сайтов любой сложности
         </li>
-        <li>
+        <li class="about-item">
           Мобильных приложений для iOS и Android
         </li>
-        <li>
+        <li class="about-item">
           Слайдшоу и видео для корпоративных презентаций
         </li>
       </ul>
     </section>
     <section class="quarantee">
-      <h2>Гарантии качества</h2>
-      <img src="https://via.placeholder.com/150x100" alt="Логотип дизайн-студии «Нердс»">
+      <h2 class="visually-hidden">Гарантии качества</h2>
+      <img class="quarantee-section-logo" src="https://via.placeholder.com/150x100" alt="Логотип дизайн-студии «Нердс»">
       <h3>с 2004 года Любим точность во всем:</h3>
-      <table>
+      <table class="quarantee-stats">
         <tr>
           <td>Уровень самоотдачи</td>
           <td>146%</td>
@@ -90,36 +107,39 @@
       </table>
     </section>
     <section class="companies">
-      <h2>Наши логотипы</h2>
-      <ul>
-        <li> <img src="https://via.placeholder.com/150x100" alt="Логотип htmlacademy"></li>
-        <li> <img src="https://via.placeholder.com/150x100" alt="Логотип Барбершопа Бородинский"></li>
-        <li> <img src="https://via.placeholder.com/150x100" alt="Логотип Pink"></li>
-        <li> <img src="https://via.placeholder.com/150x100" alt="Логотип Mishka"></li>
+      <h2 class="visually-hidden">Наши логотипы</h2>
+      <ul class="companies-list">
+        <li class="companies-item"> <img class="companies-logo" src="https://via.placeholder.com/150x100" alt="Логотип htmlacademy"></li>
+        <li class="companies-item"> <img class="companies-logo" src="https://via.placeholder.com/150x100" alt="Логотип Барбершопа Бородинский"></li>
+        <li class="companies-item"> <img class="companies-logo" src="https://via.placeholder.com/150x100" alt="Логотип Pink"></li>
+        <li class="companies-item"> <img class="companies-logo" src="https://via.placeholder.com/150x100" alt="Логотип Mishka"></li>
       </ul>
     </section>
   </main>
   <footer class="main-footer">
     <section class="contacts">
-      <h2>Контактная информация</h2>
-      <p>NЁRDS DESIGN STUDIO</p>
+      <h2 class="visually-hidden">Контактная информация</h2>
+      <p class"studio-name">NЁRDS DESIGN STUDIO</p>
       <p>191186, Санкт-Петербург,
         ул. Б. Конюшенная, д. 19/8
-        тел. <a href="tel:+78122757575">+7 (812) 275-75-75</a>
+        тел. <a class="contacts-phone" href="tel:+78122757575">+7 (812) 275-75-75</a>
+        <a class="button button-write-us" href="blank.html">Напишите нам</a>
       </p>
     </section>
     <section class="social-media">
-      <h2>Социальные сети</h2>
-      <p>Давайте дружить, это выгодно!</p>
-      <p>Скидка 10% для друзей из социальных сетей.</p>
-      <ul>
-        <li>
+      <h2 class="visually-hidden">Социальные сети</h2>
+      <div class="friendship">
+        <p class="lets-be">Давайте дружить, это выгодно!</p>
+        <p class="discount">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+      <ul class="social-media-list">
+        <li class="social-media-item">
           <a href="#">Вконтакте</a>
         </li>
-        <li>
+        <li class="social-media-item">
           <a href="#">Фейсбук</a>
         </li>
-        <li>
+        <li class="social-media-item">
           <a href="#">Инстаграм</a>
         </li>
       </ul>
