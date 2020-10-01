@@ -21,7 +21,7 @@
 
 /* Global */
 body {
-  min-width: 960px;
+  min-width: 1200px;
   margin: 0;
   padding: 0;
   font-family: "Roboto", Arial, sans-serif;
@@ -229,6 +229,37 @@ img {
   color: var(--basic-black);
 }
 
-.top-heading {
+/*Catalog*/
+.main-heading {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.main-heading-background {
   background-color: var(--basic-gray);
 }
+
+.catalog ul {
+  list-style: none;
+}
+
+.catalog-item-title {
+  color: var(--basic-black);
+}
+
+.pagination-button {
+  background-color: var(--nav-gray);
+  color: var(--basic-black);
+}
+
+.pagination-button:hover,
+.pagination-button:focus {
+  background-color: var(--hover-gray);
+  color: var(--basic-black);
+}
+
+.pagination-button:active {
+  background-color: var(--pressed-gray);
+  color: var(--transparent-black);
